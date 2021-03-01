@@ -17,4 +17,8 @@ public class MathController {
 		return "Demo controller called";
 	}
 	
+	@GetMapping("/demo")
+	public String demo() {
+		return "Demo controller called1";
+	}
 }
